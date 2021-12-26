@@ -1,4 +1,4 @@
-import { IsOnlineBadge } from "../../components";
+import { IsOnlineBadge } from "../";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 export default {
@@ -13,10 +13,10 @@ const Template: ComponentStory<typeof IsOnlineBadge> = (args) => (
 
 export const Online = Template.bind({});
 Online.args = {
-    isOnline: true
+  isOnline: true
 };
 
 export const Offline = Template.bind({});
 Offline.args = {
-    isOnline: false
+  isOnline: false
 };

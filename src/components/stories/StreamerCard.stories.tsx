@@ -1,4 +1,4 @@
-import { StreamerCard } from "./";
+import { StreamerCard } from "../";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 export default {
@@ -15,6 +15,6 @@ const Template: ComponentStory<typeof StreamerCard> = (args) => (
 export const Basic = Template.bind({});
 Basic.args = {
   streamer: {
-      name: "AlexAnarcho"
+    name: "AlexAnarcho"
   },
 };

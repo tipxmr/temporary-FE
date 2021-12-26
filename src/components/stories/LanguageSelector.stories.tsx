@@ -1,4 +1,4 @@
-import { LanguageSelector } from "../../components";
+import { LanguageSelector } from "../";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 export default {
