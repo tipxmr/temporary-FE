@@ -56,7 +56,7 @@ const LanguageSelector = ({
   });
 
   return (
-    <FormControl fullWidth>
+    <FormControl>
       <InputLabel id="seed-language">Seed Language</InputLabel>
       <Select
         labelId="seed-language"

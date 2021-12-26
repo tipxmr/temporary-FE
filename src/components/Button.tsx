@@ -1,6 +1,5 @@
 import Button from "@mui/material/Button";
-
-export interface IButton {
+interface IButton {
   label: string;
   backgroundColor: string;
   handleClick: any;
