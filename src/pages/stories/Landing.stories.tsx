@@ -6,11 +6,7 @@ export default {
   component: Landing,
 } as ComponentMeta<typeof Landing>;
 
-// Passing all the arguments to the button
-const Template: ComponentStory<typeof Landing> = (args) => (
-  <Landing {...args} />
-);
+const Template: ComponentStory<typeof Landing> = () => <Landing />;
 
 export const Basic = Template.bind({});
-Basic.args = {
-};
+Basic.args = {};
