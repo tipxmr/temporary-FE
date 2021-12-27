@@ -1,9 +1,10 @@
+import Container from "@mui/material/Container"
 
-function Layout({children}) {
+function Layout({ children }: any) {
     return (
-        <div>
-            
-        </div>
+        <Container>
+            {children}
+        </Container>
     )
 }
 
